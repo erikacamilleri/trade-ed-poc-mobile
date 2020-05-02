@@ -1,0 +1,11 @@
+node_modules
+.idea
+www/*
+!www/static/.gitkeep
+platforms/*
+plugins/*
+npm-debug.log
+.env
+.env.local
+.DS_Store
+google-services.json
