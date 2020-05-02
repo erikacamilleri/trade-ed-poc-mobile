@@ -1,11 +1,23 @@
+# dependencies that are installed with npm
 node_modules
-.idea
+npm-debug.log
+
+# binaries built with cordova
 www/*
 !www/static/.gitkeep
+
+# project specific platforms added to serve app
 platforms/*
+
+# dependencies installed with cordova for mobile hardware
 plugins/*
-npm-debug.log
+
+# config files containing sensitive data
 .env
-.env.local
+
+# IDE specific config
 .DS_Store
+.idea
+
+# google services config for dependencies
 google-services.json
